@@ -37,4 +37,25 @@ public class DocuemtName {
 ### 7.单引号中不能有两个字符，只能有一个
 ### 8.空常量不能直接打印输出
 
+### 9.在public变量名时候注意不能跨目录
 
+### 10.点运算符（.）将一个对象同它的某一种方法连接起来
+
+### 11.对象
+>对象同时包括方法和字段（数据）
+>类是任意数目的对象的说明
+>创建一个对象，要将关键字new和类的名称连用 `new function`
+>调用一个对象的方法，要使用点运算符
+
+### 12.java中所有函数都属于某个类的方法，因此java中的main方法必须有一个外壳类，也就是
+```
+public class welcome {
+    public static void main(String[] args)
+    {
+        String greeting = "Welcome to Core Java!";
+        System.out.println(greeting);
+        for(int i = 0; i < greeting.length(); i++ )
+            System.out.print("=");
+    }
+}
+```
