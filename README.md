@@ -39,23 +39,34 @@ public class DocuemtName {
 
 ### 9.在public变量名时候注意不能跨目录
 
-### 10.点运算符（.）将一个对象同它的某一种方法连接起来
+### 10.点运算符（.）将一个对象同它的某一种方法连接起来  ``` {object.method(parameters)  //method}```
 
 ### 11.对象
->对象同时包括方法和字段（数据）
->类是任意数目的对象的说明
->创建一个对象，要将关键字new和类的名称连用 `new function`
->调用一个对象的方法，要使用点运算符
+> * 对象同时包括方法和字段（数据）
+> * 类是任意数目的对象的说明
+> * 创建一个对象，要将关键字new和类的名称连用 `new function`
+> * 调用一个对象的方法，要使用点运算符
 
 ### 12.java中所有函数都属于某个类的方法，因此java中的main方法必须有一个外壳类，也就是
 ```
-public class welcome {
+public class welcome {          //此处welcome为外壳类
     public static void main(String[] args)
     {
-        String greeting = "Welcome to Core Java!";
-        System.out.println(greeting);
-        for(int i = 0; i < greeting.length(); i++ )
-            System.out.print("=");
+        ......
     }
 }
 ```
+
+### 13.java中的main方法必须是静态的
+
+### 14.需要程序结束之后运行其他内容的时候需要用到 ```System.exit```
+
+### 15.```System.out.println()```输出之后默认换行,而```System.out.print()```输出默认不换行，输出还是跟在后面
+
+### 16.数据类型整形
+| 类型 | 存储需求|取值范围                                |
+|------|---------|--------------                          |
+|int   | 4 bit   |-2147483648~2147483647                  |
+|short | 2 bit   |-32768~32767                            |
+|long  | 8 bit   |-9223372036854775808~9223372036854775807|
+|byte  | 1 bit   |-128~127                                |
