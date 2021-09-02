@@ -3,7 +3,7 @@ public class welcome {
     {
         String greeting = "Welcome to Core Java!";
         System.out.print(greeting);
-        System.out.print("jare");
+        System.out.println("jare");
         for(int i = 0; i < greeting.length(); i++ )
             System.out.print("=");
     }
