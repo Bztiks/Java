@@ -17,12 +17,12 @@
 > * 方法名规范：同变量名
 
 ### 4.变量分类
->1.字符串常量
->2.整数常量
->3.浮点数常量
->4.字符常量
->5.布尔常量：true，false
->6.空常量：null
+> * 1.字符串常量
+> * 2.整数常量
+> * 3.浮点数常量
+> * 4.字符常量
+> * 5.布尔常量：true，false
+> * 6.空常量：null
 
 ### 5.基本格式
 ```
@@ -39,7 +39,8 @@ public class DocuemtName {
 
 ### 9.在public变量名时候注意不能跨目录
 
-### 10.点运算符（.）将一个对象同它的某一种方法连接起来  ``` {object.method(parameters)  //method}```
+### 10.点运算符（.）将一个对象同它的某一种方法连接起来  
+``` {object.method(parameters)  //method}```
 
 ### 11.对象
 > * 对象同时包括方法和字段（数据）
@@ -66,6 +67,7 @@ public class welcome {          //此处welcome为外壳类
 ## 二.数据类型
 
 ###整形
+
 | 类型 | 存储需求|取值范围                                |
 |------|---------|----------------------------------------|
 |int   | 4 bit   |-2147483648~2147483647                  |
@@ -74,6 +76,7 @@ public class welcome {          //此处welcome为外壳类
 |byte  | 1 bit   |-128~127                                |
 
 ###浮点型
+
 | 类型 | 存储需求| 取值范围                                 |
 |------|---------|------------------------------------------|
 |float |4 bit    | ±3.40282347E+38F(有效位数为6~7)          |
@@ -84,7 +87,7 @@ public class welcome {          //此处welcome为外壳类
 > * 正无穷大
 > * 负无穷大
 > * NaN(不是一个数字)
-> 一个正整数除以0的结果为正无穷大。计算0/0或者负数的平方根结果为NaN
+> * 一个正整数除以0的结果为正无穷大。计算0/0或者负数的平方根结果为NaN
 
 ###char类型的字面量值要用单引号括起来
 
@@ -95,17 +98,17 @@ public class welcome {          //此处welcome为外壳类
 ###整数被零除会产生一个异常
 
 ### Math类提供常用的数值
->Math.sin
->Math.cos
->Math.tan
->Math.atan
->Math.atan2
->Math.exp
->Math.log
->Math.log10
->Math.PI
->Math.E
->在使用Math函数的时候需要在顶部添加```import static java.lang.Math.*```
+> * Math.sin
+> * Math.cos
+> * Math.tan
+> * Math.atan
+> * Math.atan2
+> * Math.exp
+> * Math.log
+> * Math.log10
+> * Math.PI
+> * Math.E
+> * 在使用Math函数的时候需要在顶部添加```import static java.lang.Math.*```
 
 ###对浮点数进行射入远算以便于得到最接近的整数，使用Math.round（注意在对数值直接进行强制转化的时候并不会自动四舍五入）
 ```
