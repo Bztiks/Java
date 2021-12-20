@@ -110,7 +110,7 @@ public class welcome {          //此处welcome为外壳类
 > * Math.E
 > * 在使用Math函数的时候需要在顶部添加```import static java.lang.Math.*```
 
-### 对浮点数进行射入远算以便于得到最接近的整数，使用Math.round（注意在对数值直接进行强制转化的时候并不会自动四舍五入）
+### 对浮点数进行射入运算以便于得到最接近的整数，使用Math.round（注意在对数值直接进行强制转化的时候并不会自动四舍五入）
 ```
 public class Qzlxzh{
     public static void main(String[] args) {
