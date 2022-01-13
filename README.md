@@ -183,5 +183,11 @@ for(variable : collection) statement
 
 ### 初始化数组给值的时候可以不调用 new ，可以初始化一个<font color = red>匿名数组 </font>：`n = new int[] {1,2,3,4,5}` 这样创建的数组会利用括号中提供的值进行初始化，数组大小就是初始值的个数
 
-### 可以使用`=`将一个数组拷贝给另一个数组，这时两个变量引用的是同一个数组
+### 可以使用`=`将一个数组变量拷贝给另一个数组变量（非数组本身），这时两个变量引用的是同一个数组
 
+### 如果想要拷贝数组本体（也就是数组所有值）到一个新的数组中去的话就要使用`Arrays类的copyOf方法`，语法：
+```java
+int[] copiedLuckyNumbers = Arrays.copyOf(luckyNumbers, luckyNumbers.length) //其中luckyNumbers.length代表所创建的新的数组的大小，通常可以使用这个方法来增加数组的大小，多余的值会被进行默认赋值
+```
+
+### 
