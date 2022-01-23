@@ -161,4 +161,20 @@ int[] copiedLuckyNumbers = Arrays.copyOf(luckyNumbers, luckyNumbers.length) //�
 ```
 
 9. 命令行参数
-
+每一个Java程序都带一个String arg[]参数的main方法，这个参数是可以接收一个字符串数组，也就是命令行参数
+```java
+public class Message
+{
+    public static void main(String args[])
+    {
+        if(args.length == 0 || args[0].equals("-h"))
+            System.out.print("Hello,");
+        else if(args[0].equals("-g"))
+            System.out.print("Goodbye,");
+        for(int i = 1; i < args.length; i++)
+            System.out.print(" " + args[i]);
+        System.out.println("!")
+    }
+}
+```
+!(Java命令行参数)[1.png]
