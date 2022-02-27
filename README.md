@@ -251,7 +251,7 @@ int[][] name =
 };
 ```
 
-## 注释
+## 五.注释
 
 1. javadoc 实用程序从下面几个特性中抽取信息
 - 包
@@ -294,7 +294,7 @@ public class Name
 - @deprecated   文本
 - @see          引用
 
-## 继承
+## 六.继承
 
 - 类、超类和子类
 - Object：所有类的超类
