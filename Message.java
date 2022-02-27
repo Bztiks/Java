@@ -1,4 +1,3 @@
-import javafx.stage.StageStyle;
 
 public class Message {
     public static void main(String[] args) {
